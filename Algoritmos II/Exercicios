@@ -1,0 +1,103 @@
+#include <stdio.h>
+#include <conio.h>
+
+/*
+int main()
+{
+	float preco;
+	int litro;
+	char combustivel;
+	printf("Digite a combustivel: ");
+	scanf("%c", &combustivel);
+	printf("Digite o litro:");
+	scanf("%d", &litro);
+	
+
+	
+	switch (combustivel) {
+		case 'G':
+			preco = 7.10 * litro;
+			printf("Valor gasto: %f", preco);
+			break;
+		case 'A':
+			preco = 6.05 * litro;
+			printf("Valor gasto: %f", preco);
+			break;
+		case 'D':
+			preco = 6.10 * litro;
+			printf("Valor gasto: %f", preco);
+			break;			
+		default:
+			printf("COMBUSTIVEL INEXISTENTE!");
+	
+	}
+		
+	
+	
+	
+}
+
+
+int main()
+{
+	int i;
+	for (i=1;i<=50;i++)
+		printf ("Numero: %d\n", i);
+return 0;
+}
+
+
+int main()
+{
+	int n=1;
+	while (n>0)
+	{
+		printf("Digite um numero: ");
+		scanf("%d", &n);
+	}
+	return 0;
+}
+
+
+int main()
+{
+	int n;
+	do{
+		printf("Digite um numero:");
+		scanf("%d", &n);
+		printf ("Numero: %d\n", n);
+	}while (n>=0);
+return 0;
+}
+
+
+Escreva um algoritmo que calcule o diâmetro, a área e a circunferência de um círculo, sabendo 
+que o único dado disponível é o seu raio.
+Diâmetro = 2 * Raio
+Área = PI * Raio2
+Circunferência= 2 * PI * Raio
+
+*/
+
+int main()
+{
+	
+	
+	
+	float raio;
+	printf("Digite o raio: ");
+	scanf("%f", &raio);
+	
+	float pi = 3.14;
+	float diametro = 2 * raio;
+	float area = 2 * (raio * raio);
+	float circunferencia = 2 * pi * raio;
+	printf("O Diametro e: %f\n", diametro);
+	printf("O Diametro e: %f\n", area);
+	printf("O Diametro e: %f\n", circunferencia);
+	
+return 0;
+}
+
+
+
